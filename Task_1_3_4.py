@@ -16,3 +16,4 @@ def check_str (string):
 print("[{}({})]",":",check_str("[{}({})]"))
 print("{]",":",check_str("{]"))
 print("{",":",check_str("{"))
+print("{{()}[{}]}",":",check_str("{{()}[{}]}"))
