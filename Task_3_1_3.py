@@ -4,11 +4,9 @@
 # Преобразование римский цифр в арабские
 
 def Roman(number):
-    num = [1, 4, 5, 9, 10, 40, 50, 90,
-        100, 400, 500, 900, 1000]
-    sym = ["I", "IV", "V", "IX", "X", "XL",
-        "L", "XC", "C", "CD", "D", "CM", "M"]
-    i = 12
+    num = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000]
+    sym = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"]
+    i = len(num)-1
     roman_str=str()  
     while number:
         div = number // num[i]

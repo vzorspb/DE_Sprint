@@ -4,7 +4,7 @@
 
 
 def check_str (string):
-    count=len(string)
+    count=1
     while count>0:
         count=len(string)
         string=string.replace("{}","")
