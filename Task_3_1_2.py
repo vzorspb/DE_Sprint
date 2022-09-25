@@ -5,10 +5,8 @@
 
 def check_papindrom (string):
     string=string.replace(" ","")
-    if string==''.join(reversed(string)):
-        return True
-    else:
-        return False
+    return string==''.join(reversed(string))
+
 X="taco cat"
 print (X, ":",  check_papindrom(X))
 
