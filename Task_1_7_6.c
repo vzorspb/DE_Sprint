@@ -7,9 +7,9 @@
 
 int main()
 {
-   int a=1;
+   int a;
    int max=0;
-   while (a>0)
+   do
    {
        std::cout << "Введите положительное число или 0 для завершения: ";
        std::cin >> a;
@@ -17,8 +17,8 @@ int main()
        {
            max=a;
        }
-       std::cout << "Максимальное число: " << max << "\n";
-       
+       std::cout << "Максимальное число: " << max << "\n";   
     }
-   return 0;
+    while (a>0);
+    return 0;
 }
