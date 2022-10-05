@@ -23,7 +23,6 @@ float init_array(float (*array)[cols])
            array[i][j]=array[i][j]/100000-10000;
         }
     }
-//    return array;
 }
 float min_a(float (*array)[cols])
 {
@@ -72,9 +71,7 @@ int main()
     {
         for (j=1; j<cols; j++)
         {
-
            std::cout  <<array[i][j] << "	";
-//           std::cout << i << ";" << j << "	";
         }
         std::cout << "\n";
     }
